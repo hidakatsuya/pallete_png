@@ -30,6 +30,10 @@ image_data = File.binread('/path/to/pallete-based-w-transparency.png')
 PalletePNG.to_transparency(image_data) # => The converted image data
 ```
 
+## Supported versions
+
+Ruby 2.2, 2.3
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/hidakatsuya/transparency_png.
