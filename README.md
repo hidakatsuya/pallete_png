@@ -1,5 +1,7 @@
 # PalletePNG
 
+[![Build Status](https://travis-ci.org/hidakatsuya/pallete_png.svg?branch=master)](https://travis-ci.org/hidakatsuya/pallete_png)
+
 PalletePNG is a pure-ruby library that makes a pallete-based PNG transparency.
 
 ## Installation
