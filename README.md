@@ -1,0 +1,37 @@
+# PalletePNG
+
+PalletePNG is a pure-ruby library that makes a pallete-based PNG transparency.
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'pallete_png'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install pallete_png
+
+## Usage
+
+```ruby
+require 'pallete_png'
+
+image_data = File.binread('/path/to/pallete-based-w-transparency.png')
+
+PalletePNG.to_transparency(image_data) # => The converted image data
+```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/hidakatsuya/transparency_png.
+
+## License
+
+© 2016 Katsuya HIDAKA. See MIT-LICENSE for further details.
