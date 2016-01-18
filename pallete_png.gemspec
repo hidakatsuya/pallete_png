@@ -8,8 +8,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Katsuya HIDAKA']
   spec.email         = ['hidakatsuya@gmail.com']
 
-  spec.summary       = 'Makes a pallete-based PNG transparency'
-  spec.description   = 'PalletePNG is a pure-ruby library that makes a pallete-based PNG transparency.'
+  spec.summary       = 'Make it possible to render the transparent of a pallete-based PNG in PDF'
+  spec.description   = <<-DESC
+    PalletePNG is a pure-ruby library that make it possible to render
+    the transparent of a pallete-based PNG in PDF by converting the color-mode of the image.
+  DESC
   spec.homepage      = 'https://github.com/hidakatsuya/pallete_png'
   spec.license       = 'MIT'
   spec.platform      = Gem::Platform::RUBY
