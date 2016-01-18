@@ -30,6 +30,8 @@ image = File.binread('/path/to/pallete-based-w-transparency.png')
 converted_image = PalletePNG.to_transparency(image)
 ```
 
+See also: [Example::Using in Prawn](https://github.com/hidakatsuya/pallete_png/tree/master/example).
+
 ## Supported versions
 
 Ruby 2.2, 2.3
