@@ -30,7 +30,23 @@ image = File.binread('/path/to/pallete-based-w-transparency.png')
 converted_image = PalletePNG.to_transparency(image)
 ```
 
-See also: [Example::Using in Prawn](https://github.com/hidakatsuya/pallete_png/tree/master/example).
+### Exception
+
+```ruby
+require 'pallete_png'
+
+not_a_png_image = File.binread('/path/to/not_a_png.jpg')
+
+begin
+  converted_image = PalletePNG.to_transparency(not_a_png_image)
+rescue PalletePNG::Image::NotPNG
+  puts 'The image is not a PNG.'
+end
+```
+
+### Use with Prawn
+
+See [Example::Using in Prawn](https://github.com/hidakatsuya/pallete_png/tree/master/example).
 
 ## Supported versions
 
